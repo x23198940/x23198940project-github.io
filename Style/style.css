@@ -81,7 +81,11 @@ a{
 }
 
 .guess{
-    text-align: center;
+   text-align: center;
+}
+
+#output{
+  text-align: center;	
 }
 
 textarea{
