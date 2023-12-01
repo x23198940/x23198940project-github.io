@@ -1,0 +1,136 @@
+@media only screen and (min-width: 600px) {
+    .navbar {
+     height: 100%; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+     width: 100%; 
+    }
+}
+ .navbar-brand {
+    font-family: 'Comforter', cursive;
+    font-size:20px;
+    text-shadow: 3px 3px 3px #ababab;
+
+}
+.navbar{
+    font-family:"Trirong", serif;;
+}
+<!--carouselhomepage-->
+.carousel-inner1{
+	height: 100vh;
+	background-size: cover;
+	width: 100%;
+}
+/*homepagecarousel*/
+.homebody {
+   
+    padding-bottom: 20px;
+}
+.homebody {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    height: 100%;
+    overflow: hidden;
+}
+.container-fluid {
+	padding: 0
+}
+h3{
+    text-align: center;
+    font-family: 'Comforter', cursive;
+    font-size: 50px;
+}
+p{font-family: 'Comforter', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Poiret One', sans-serif;
+    font-family: "Trirong", serif;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+/*reservations styles*/
+
+#output{
+    text-align: center;
+}
+.custom-form-container {
+    background-color:#F8F4EF;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .game {
+    width: 100%;
+    padding: 20px;
+    background-color: #F8F4EF;
+  }
+  /*about styles*/
+  .container-fluid1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0;
+    width: 100%;
+}
+
+.guess{
+    text-align: center;
+}
+
+textarea{
+    width: 387px;
+    height: 150px;
+    border: 2px solid #ccc;
+}
+
+.row {
+    flex: 1; /* Each row takes up equal space */
+  }
+
+#about {
+    width: 100%;
+    height: auto;
+}
+
+.enquiry-form {
+    background-color: #F8F4EF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .opening-hours,
+  .contact-info {
+   background-color: #F8F4EF;
+    margin-top: 20px;
+  }
+.button1,.button2,.button3{
+    background-color: black;
+    color: white;
+    border: 12px white;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+.button1:hover,.button2:hover,.button3:hover{
+    background-color: #555555;
+    color: white;
+  }
+
+.contact{
+    text-orientation: left;
+}
+
+
+
